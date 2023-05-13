@@ -148,7 +148,7 @@ public class menu
     
     public void manageDisplay()
     {
-    	System.out.println("\nDISPLAY\n");
+    	System.out.println("DISPLAY");
     	System.out.println("+------------------------------------------+");
     	System.out.println("|[1] Display all appointments for a date   |");
     	System.out.println("|[2] Display participants of an appointment|");
@@ -165,9 +165,9 @@ public class menu
         if(choice==1)
         {
         	System.out.println("[+] DISPLAY ALL APPOINTMENTS FOR A DATE [+]");
-        	System.out.println("Enter a day number: \n");
+        	System.out.println("Enter a day number: ");
         	int day = scanner.nextInt();
-        	System.out.println("List of appointments: \n");
+        	System.out.println("List of appointments: ");
             la.displayAppointmentsByDate(day);
 
             reception();
@@ -175,7 +175,7 @@ public class menu
         else if(choice==2)
         {
         	System.out.println("[+] DISPLAY ALL PARTICIPANTS OF AN APPOINTMENT ");
-        	System.out.println("Enter the name of the appointment: \n");
+        	System.out.println("Enter the name of the appointment: ");
         	String name = scanner.next();
         	
             appointment a;
@@ -198,8 +198,7 @@ public class menu
             System.out.println("[+] DISPLAY ALL APPOINTMENTS FOR A PARTICIPANT [+]");
             System.out.println("Enter the last name of the participant:\n");
             String lastname = scanner.next();
-            
-            participant pp;
+
             if(lp.searchByName(lastname)!=null)
             {
                 lp.displayAppointmentParticipant(lastname);
@@ -238,7 +237,7 @@ public class menu
 
     public void manageRelation()
     {
-    	System.out.println("GESTION RELATIONS");
+    	System.out.println("RELATIONSHIP MANAGEMENT");
     	System.out.println("+---------------------------------------------------------+");
     	System.out.println("|[1] Search if a person has an appointment at a given time|");
     	System.out.println("|[2] Add a participant to an appointment                  |");
@@ -250,14 +249,14 @@ public class menu
 
         if(choice==1)
         {
-            System.out.println("\n[+] SEARCH IF A PERSON HAS AN APPOINTMENT AT A GIVEN TIME [+]");
-            System.out.println("\nEnter the person's last name:\n");
+            System.out.println("[+] SEARCH IF A PERSON HAS AN APPOINTMENT AT A GIVEN TIME [+]");
+            System.out.println("Enter the person's last name:\n");
             String lastname = scanner.next();
-            System.out.println("\nEnter the day number:\n");
+            System.out.println("Enter the day number:\n");
             int day = scanner.nextInt();
-            System.out.println("\nEnter the start time:\n");
+            System.out.println("Enter the start time:\n");
             int startTime = scanner.nextInt();
-            System.out.println("\nEnter the end time:\n");
+            System.out.println("Enter the end time:\n");
             int endTime = scanner.nextInt();
 
             participant pp = lp.searchByName(lastname);
@@ -351,7 +350,7 @@ public class menu
     	System.out.println("|[1] Add an appointment                               |");
     	System.out.println("|[2] Modify an appointment                            |");
     	System.out.println("|[3] Delete an appointment                            |");
-    	System.out.println("|[4] Reception                                             |");
+    	System.out.println("|[4] Reception                                        |");
     	System.out.println("+-----------------------------------------------------+");
 
     	Scanner scanner = new Scanner(System.in);

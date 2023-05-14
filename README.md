@@ -1,5 +1,16 @@
 <div align="center">
   
+  # Installation
+  
+ - Install Visual Studion Code
+ - In Visual Studion Code install the extension : "Extension Pack for Java"
+ - Install the JDK from this link : https://www.oracle.com/java/technologies/downloads/
+ - To run click on run Java
+  
+  ![1111](https://github.com/YassineProDev/Java_AppointmentBookManagement/assets/120946916/4786b8dc-863e-4f80-8480-a81c99067c6c)
+
+  
+  
 # Appointment book managment
   
  <br/>

@@ -1,5 +1,8 @@
-
-  # Installation
+<div align="center">
+  
+# Installation
+  
+</div>
   
  - Install Visual Studion Code
  - In Visual Studion Code install the extension : "Extension Pack for Java"
@@ -8,13 +11,12 @@
   
   ![1111](https://github.com/YassineProDev/Java_AppointmentBookManagement/assets/120946916/4786b8dc-863e-4f80-8480-a81c99067c6c)
 
-  <div align="center">
+<div align="center">
   
-# Appointment book managment
+# Presentation
   
- <br/>
   
- # Select the action you want to do
+# Select the action you want to do
   
 ![1](https://github.com/YassineProDev/Java_AppointmentBookManagement/assets/120946916/a9c70c5f-8cf5-415e-b56a-af72782f4f57)
   

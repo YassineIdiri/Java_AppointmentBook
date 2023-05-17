@@ -15,8 +15,12 @@
 ## Opening and compilation of the project
 
  - Then open the project and compile it by clicking on "run Java"
+
+<div align="center">
   
 ![1111](https://github.com/YassineProDev/Java_AppointmentBookManagement/assets/120946916/4786b8dc-863e-4f80-8480-a81c99067c6c)
+  
+</div>
 
 <div align="center">
   

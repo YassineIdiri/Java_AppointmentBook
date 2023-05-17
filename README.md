@@ -14,7 +14,15 @@
 
 ## Opening and compilation of the project
 
- - Then open the project and compile it by clicking on "run Java"
+ - Then open the project and add it to the Java Path
+
+<div align="center">
+  
+![1](https://github.com/YassineProDev/Java_AppointmentBookManagement/assets/120946916/4cb681a7-8b16-422c-abc2-bb586cb68fe5)
+
+</div>
+  
+ - Compile it by clicking on "run Java"
 
 <div align="center">
   
